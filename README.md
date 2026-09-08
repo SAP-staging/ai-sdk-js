@@ -21,6 +21,7 @@ Set up your SAP AI Core instance with SAP Cloud SDK for AI.
   - [@sap-ai-sdk/document-grounding](#sap-ai-sdkdocument-grounding)
   - [@sap-ai-sdk/prompt-registry](#sap-ai-sdkprompt-registry)
 - [SAP Cloud SDK for AI Sample Project](#sap-cloud-sdk-for-ai-sample-project)
+- [Requirements and Setup](#requirements-and-setup)
 - [Support, Feedback, Contribution](#support-feedback-contribution)
 - [Security / Disclosure](#security--disclosure)
 - [Code of Conduct](#code-of-conduct)
@@ -103,6 +104,18 @@ npm install @sap-ai-sdk/prompt-registry
 
 We have created a sample project demonstrating the different clients' usage of the SAP Cloud SDK for AI for TypeScript/JavaScript.
 The [project README](https://github.com/SAP/ai-sdk-js/blob/main/sample-code/README.md) outlines the set-up needed to build and run it locally.
+
+## Requirements and Setup
+
+To start using the SAP Cloud SDK for AI, ensure you have the following:
+
+- [Node.js](https://nodejs.org/en/) version 14 or later.
+- [pnpm](https://pnpm.io/) for package management.
+- SAP AI Core and SAP Generative AI Hub account credentials for accessing APIs.
+- Docker for containerized services and model deployments.
+- Recommended IDE: [Visual Studio Code](https://code.visualstudio.com/), with extensions for TypeScript and JavaScript.
+
+Follow the step-by-step setup guide in the [DOCUMENTATION.md](DOCUMENTATION.md) file for complete setup instructions and initial configuration.
 
 ## Support, Feedback, Contribution
 
