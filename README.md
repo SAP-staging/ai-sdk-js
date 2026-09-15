@@ -13,6 +13,7 @@ Set up your SAP AI Core instance with SAP Cloud SDK for AI.
 ### Table of Contents
 
 - [Documentation](#documentation)
+- [Requirements and Setup](#requirements-and-setup)
 - [Packages](#packages)
   - [@sap-ai-sdk/ai-api](#sap-ai-sdkai-api)
   - [@sap-ai-sdk/foundation-models](#sap-ai-sdkfoundation-models)
@@ -21,7 +22,7 @@ Set up your SAP AI Core instance with SAP Cloud SDK for AI.
   - [@sap-ai-sdk/document-grounding](#sap-ai-sdkdocument-grounding)
   - [@sap-ai-sdk/prompt-registry](#sap-ai-sdkprompt-registry)
 - [SAP Cloud SDK for AI Sample Project](#sap-cloud-sdk-for-ai-sample-project)
-- [Support, Feedback, Contribution](#support-feedback-contribution)
+- [Support, Feedback, Contributing](#support-feedback-contributing)
 - [Security / Disclosure](#security--disclosure)
 - [Code of Conduct](#code-of-conduct)
 - [Licensing](#licensing)
@@ -29,6 +30,30 @@ Set up your SAP AI Core instance with SAP Cloud SDK for AI.
 ## Documentation
 
 Visit the [SAP Cloud SDK for AI (JavaScript)](https://sap.github.io/ai-sdk/docs/js/overview-cloud-sdk-for-ai-js) documentation portal to learn more about its capabilities and detailed usage.
+
+## Requirements and Setup
+
+To get started with the SAP Cloud SDK for AI, ensure that you have the following prerequisites:
+
+- Node.js (version 14 or later is recommended)
+- pnpm (version 6 or later)
+
+Begin by cloning the repository and installing dependencies:
+
+```bash
+git clone https://github.com/SAP/ai-sdk-js.git
+cd ai-sdk-js
+pnpm install
+```
+
+You can then build and test the project:
+
+```bash
+pnpm build
+pnpm test
+```
+
+Refer to the [project documentation](https://sap.github.io/ai-sdk/docs/js/overview-cloud-sdk-for-ai-js) for additional setup instructions and usage details.
 
 ## Packages
 
@@ -104,7 +129,7 @@ npm install @sap-ai-sdk/prompt-registry
 We have created a sample project demonstrating the different clients' usage of the SAP Cloud SDK for AI for TypeScript/JavaScript.
 The [project README](https://github.com/SAP/ai-sdk-js/blob/main/sample-code/README.md) outlines the set-up needed to build and run it locally.
 
-## Support, Feedback, Contribution
+## Support, Feedback, Contributing
 
 This project is open to feature requests, bug reports and questions via [GitHub issues](https://github.com/SAP/ai-sdk-js/issues).
 
